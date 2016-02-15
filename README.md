@@ -12,7 +12,7 @@ Create a new repository: ![pic1](https://github.com/daymos/hostingOnGitHub/blob/
 The name of the repo must follow this standard: _yourUsername_.github.io.
 This is the URL you will be using to access your website from a browser.  
 This is according to the github guide. However I found that if you plan to use a custom domain, you can call this anything and don't need to follow the standard.  
-The repo can be public or private, but be aware that the even if you set it on private the page will be available at _username_.github.io/_repoName_
+The repo can be public or private, but be aware that even if you set it on private the page will be available at _username_.github.io/_repoName_
 
 ## Clone the repo in your local machine
 
