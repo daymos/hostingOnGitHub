@@ -21,9 +21,9 @@ The repo can be public or private, but be aware that the even if you set it on p
 ## Add your website to the repo. 
 Copy paste all your website files inside the repo folder. If you want to try yourself [here]() you can find a generic landing page.
 
-`git add --all
-~$git commit -m "Initial commit"
-~$git push -u origin master
+`git add --all  
+~$git commit -m "Initial commit"  
+~$git push -u origin master  
 `
 
 
