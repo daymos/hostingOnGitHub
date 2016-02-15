@@ -9,3 +9,21 @@ Their tutorial is very well done, but I try to put all the useful extra info tha
 ## Setup a repository
 
 Create a new repository: ![pic1](https://github.com/daymos/hostingOnGitHub/blob/gh-pages/img/pic1.png)
+The name of the repo must follow this standard: _yourUsername_.github.io.
+This is the URL you will be using to access your website from a browser.
+This is according to the github guide. 
+However I found that if you plan to use a custom domain, you can call this anything and don't need to follow the standard.
+
+## Clone the repo in your local machine
+
+`$ git clone https://github.com/username/username.github.io`
+
+## Add your website to the repo. 
+Copy paste all your website files inside the repo folder. If you want to try yourself [here]() you can find a generic landing page.
+
+`git add --all
+~$git commit -m "Initial commit"
+~$git push -u origin master
+`
+
+
