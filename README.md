@@ -1,4 +1,4 @@
-# hostingOnGitHub
+# HostingOnGitHub
 
 This tutorial explains how to host static pages on github. At the end of this you will be able to host for free you pages on github and to assign **customs URLs to them**.
 
@@ -10,8 +10,7 @@ Their tutorial is very well done, but I try to put all the useful extra info tha
 
 Create a new repository: ![pic1](https://github.com/daymos/hostingOnGitHub/blob/gh-pages/img/pic1.png)
 The name of the repo must follow this standard: _yourUsername_.github.io.
-This is the URL you will be using to access your website from a browser.  
-This is according to the github guide. However I found that if you plan to use a custom domain, you can call this anything and don't need to follow the standard.  
+This is according to the github guide, however I found that if you plan to use a custom domain, you can call this anything and don't need to follow the standard.  
 The repo can be public or private, but be aware that even if you set it on private the page will be available at _username_.github.io/_repoName_
 
 ## Clone the repo in your local machine
@@ -21,8 +20,25 @@ The repo can be public or private, but be aware that even if you set it on priva
 ## Add your website to the repo. 
 Copy paste all your website files inside the repo folder. If you want to try yourself [here]() you can find a generic landing page.
 
-`git add --all`  
+`git add .`  
 `~$git commit -m "Initial commit"`  
-`~$git push -u origin master`  
+`~$git push -u origin master`
+
+## Done
+Now you can visit your page at _username_.github.io/_repoName_ .
+If you want to add a custom domain read on.
+
+## Adding a custom domain
+[here](https://help.github.com/articles/adding-a-cname-file-to-your-repository/) you have a good tutorial on adding a custom domain. I summ it up below:  
+* create a plain text file in you repo. Call it CNAME (uppercase matters). Add just one line with the domain that the page should accept, like _www.mydomain.com_
+* now look in the setting page of the repo, if everything went well with the CNAME point above you should see your domain here
+* update DNS records
+
+
+
+
+
+
+
 
 
